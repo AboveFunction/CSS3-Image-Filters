@@ -1,0 +1,37 @@
+/* General Styles */
+* {margin: 0; padding: 0;}
+
+body {
+	font: 1em/1.6em "Times New Roman", Times, serif;
+	background: #2980b9;
+}
+
+.container {
+	width: 996px;
+	margin: 100px auto;
+	background: #ecf0f1;
+	padding: 25px;
+	overflow: hidden;
+}
+
+.photo {
+	width: 260px;
+	float: left;
+	padding: 10px;
+	margin: 25px;
+}
+
+/* Filter Classes */
+.frame-classic {
+	background: #f0eadf;
+	border: 1px solid #e9e6e0;
+}
+
+/* Frame Classes */
+.filter-black-and-white {
+	-webkit-filter: grayscale(100%);
+}
+
+.filter-sepia {
+	-webkit-filter: sepia(100%); 
+}
