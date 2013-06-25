@@ -29,9 +29,13 @@ body {
 
 /* Frame Classes */
 .filter-black-and-white {
-	-webkit-filter: grayscale(100%);
+	-webkit-filter: grayscale(100%) contrast(110%);
 }
 
 .filter-sepia {
-	-webkit-filter: sepia(100%); 
+	-webkit-filter: sepia(100%) 
+}
+
+.filter-vintage {
+	-webkit-filter: sepia(100%) contrast(150%) hue-rotate(270deg) invert(10%); 
 }
